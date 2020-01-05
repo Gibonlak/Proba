@@ -26,7 +26,7 @@ public class Faktura extends JFrame
 	String txt;
 	String nazwaOdbiorcy;
 	String adresOdbiorcy;
-	String nip;
+	String nipppp;
 		
 	public Faktura (int x, int y, String txt, int nrf, String n, String a, String nip)
 	{
@@ -72,7 +72,7 @@ public class Faktura extends JFrame
 		
 		Lewa.setLayout(new GridLayout(15,7));
 		
-		JButton Zakoncz = new JButton("Zakoñcz");
+		JButton Zakoncz = new JButton("ZakoÃ±cz");
 		Lewa.add(Zakoncz);
 	
 		Zakoncz.addActionListener(new ActionListener() 
@@ -94,7 +94,7 @@ public class Faktura extends JFrame
 	JPanel naglowki = new JPanel();
 	JLabel P0 = new JLabel("L.p.");
 	JLabel P1 = new JLabel("Nazwa"); 
-	JLabel P2 = new JLabel("Iloœæ"); 
+	JLabel P2 = new JLabel("IloÅ“Ã¦"); 
 	JLabel P3 = new JLabel("Jednostka"); 
 	JLabel P4 = new JLabel("NETTO"); 
 	JLabel P5 = new JLabel("Stawka VAT"); 
@@ -112,7 +112,7 @@ public class Faktura extends JFrame
 	naglowki.setLayout(new GridLayout(1,7));
 		
 	
-		JButton NowaPozycja = new JButton("Dodaj Pozycjê");
+		JButton NowaPozycja = new JButton("Dodaj PozycjÃª");
 		NowaPozycja.addActionListener(new ActionListener() 
 		{
 			public void actionPerformed(ActionEvent e) 
@@ -125,7 +125,7 @@ public class Faktura extends JFrame
 			}
 			else
 			{
-			JOptionPane.showMessageDialog(PDol, "Wprowadzi³eœ za du¿o pozycji. Wprowadz now¹ fakturê");
+			JOptionPane.showMessageDialog(PDol, "WprowadziÂ³eÅ“ za duÂ¿o pozycji. Wprowadz nowÂ¹ fakturÃª");
 			}}
 		});
 			
